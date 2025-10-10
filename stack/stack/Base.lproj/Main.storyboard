@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="stack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OzC-Rn-h2e">
+                                <rect key="frame" x="176.33333333333334" y="354.66666666666669" width="87.333333333333343" height="517.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7IB-DC-iQo">
+                                        <rect key="frame" x="0.0" y="0.0" width="87.333333333333329" height="167"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcP-zb-Ik9">
+                                                <rect key="frame" x="21.666666666666661" y="0.0" width="44.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.logo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ST7-gk-PvC">
+                                                <rect key="frame" x="13.000000000000004" y="51.333333333333329" width="61.333333333333343" height="63.333333333333329"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3200 dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cu-zc-N9S">
+                                                <rect key="frame" x="0.0" y="146.66666666666663" width="87.333333333333329" height="20.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ST7-gk-PvC" firstAttribute="width" secondItem="7IB-DC-iQo" secondAttribute="width" multiplier="0.7" id="gSf-E6-fRr"/>
+                                            <constraint firstItem="ST7-gk-PvC" firstAttribute="height" secondItem="7IB-DC-iQo" secondAttribute="height" multiplier="0.39" id="js5-Fl-8K0"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Cjk-sI-Lha">
+                                        <rect key="frame" x="0.0" y="174.99999999999994" width="87.333333333333329" height="167.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAY-X1-ghI">
+                                                <rect key="frame" x="21.666666666666661" y="0.0" width="44.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.logo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zIB-3T-0yb">
+                                                <rect key="frame" x="13.000000000000004" y="52.000000000000071" width="61.333333333333343" height="62.333333333333329"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3200 dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLf-FZ-Yho">
+                                                <rect key="frame" x="0.0" y="147" width="87.333333333333329" height="20.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="zIB-3T-0yb" firstAttribute="height" secondItem="Cjk-sI-Lha" secondAttribute="height" multiplier="0.382648" id="8Yb-4G-YyA"/>
+                                            <constraint firstItem="zIB-3T-0yb" firstAttribute="width" secondItem="Cjk-sI-Lha" secondAttribute="width" multiplier="0.7" id="Wuj-aq-Ret"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ygI-7w-l6I">
+                                        <rect key="frame" x="0.0" y="350.33333333333331" width="87.333333333333329" height="166.99999999999994"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Apple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmi-QX-blX">
+                                                <rect key="frame" x="21.666666666666661" y="0.0" width="44.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.logo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r74-rc-pLS">
+                                                <rect key="frame" x="13.000000000000004" y="51.6666666666667" width="61.333333333333343" height="62.333333333333329"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3200 dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwq-gf-Wkv">
+                                                <rect key="frame" x="0.0" y="146.66666666666663" width="87.333333333333329" height="20.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="r74-rc-pLS" firstAttribute="height" secondItem="ygI-7w-l6I" secondAttribute="height" multiplier="0.382648" id="CYF-wT-yjt"/>
+                                            <constraint firstItem="r74-rc-pLS" firstAttribute="width" secondItem="ygI-7w-l6I" secondAttribute="width" multiplier="0.7" id="PDI-iQ-MSh"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Cjk-sI-Lha" firstAttribute="height" secondItem="7IB-DC-iQo" secondAttribute="height" id="Mhs-RX-zS9"/>
+                                    <constraint firstItem="ygI-7w-l6I" firstAttribute="height" secondItem="Cjk-sI-Lha" secondAttribute="height" id="tGp-Ch-631"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OzC-Rn-h2e" secondAttribute="bottom" constant="16" id="NN1-dW-UQh"/>
+                            <constraint firstItem="OzC-Rn-h2e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rQj-Qv-iTO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="7IB-DC-iQo" id="y9Z-0L-Flk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100.90909090909092" y="3.1380753138075317"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple.logo" catalog="system" width="105" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "circle-long-dark.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
